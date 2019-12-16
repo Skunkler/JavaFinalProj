@@ -1,0 +1,65 @@
+#map-canvas{
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	right: 0;
+}
+
+
+
+.legend-control-container{
+    width: 200px;
+    height: 100px;
+    background-color: palegoldenrod;
+    font-size: 10px;
+}
+
+#opensign{
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color:rgb(120, 120, 120);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+
+
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #FFFFFF;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: yellow;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav  {padding-top: 15px;}
+  .panel {padding-top: 15px;}
+  .panel a{font-size: 18px;}
+  .sidenav a {font-size: 18px;}
+}
